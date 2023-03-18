@@ -1,0 +1,16 @@
+Hyper Text Transfer Protocol. Directs how clients get or send data to a server.
+Uniform Resource Locator, it's an address for an internet resource.
+Domain Name System. Takes human-readable URLs and converts them into IP addresses.
+Allows you to pass key-value pairs into the URL.
+Two HTTP verbs:
+    GET - gets data from the server
+    POST - sends data to the server. Any pages that change the data on a server
+An HTTP request is a request from client to server. Follows the HTTP protocol.
+An HTTP response is a response from a server to a client.
+HTTP header:
+    Give additional ifno about the request or response.
+        Response headers like Content-Type or  Set-Cookie.
+        Request headers like  Accept and Cookie.
+When you type a URL into a browser, the browser first turns the name into an IP address using DNS
+    Then the browser makes a request to that IP address and the server sends a response.
+    The browser then makes a DOM form that HTML and any other resources it needs like CSS or JavaScript.
